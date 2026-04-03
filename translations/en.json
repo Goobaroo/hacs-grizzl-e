@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Grizzl-E Charger",
+        "description": "Enter the IP address or hostname of your Grizzl-E charger.",
+        "data": {
+          "host": "Host (IP address or hostname)",
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the charger. Please check the host address.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This charger is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Grizzl-E Options",
+        "description": "Configure polling options for your Grizzl-E charger.",
+        "data": {
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    }
+  }
+}

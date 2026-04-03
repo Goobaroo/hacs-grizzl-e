@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connecter au chargeur Grizzl-E",
+        "description": "Entrez l'adresse IP ou le nom d'hôte de votre chargeur Grizzl-E.",
+        "data": {
+          "host": "Hôte (adresse IP ou nom d'hôte)",
+          "scan_interval": "Intervalle de scrutation (secondes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Échec de connexion au chargeur. Veuillez vérifier l'adresse de l'hôte.",
+      "unknown": "Une erreur inattendue s'est produite."
+    },
+    "abort": {
+      "already_configured": "Ce chargeur est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options Grizzl-E",
+        "description": "Configurez les options de scrutation pour votre chargeur Grizzl-E.",
+        "data": {
+          "scan_interval": "Intervalle de scrutation (secondes)"
+        }
+      }
+    }
+  }
+}

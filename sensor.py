@@ -119,6 +119,7 @@ SENSORS: tuple[GrizzlESensorEntityDescription, ...] = (
         name="Session Time",
         device_class=SensorDeviceClass.DURATION,
         native_unit_of_measurement=UnitOfTime.SECONDS,
+        suggested_unit_of_measurement=UnitOfTime.HOURS,
         state_class=SensorStateClass.TOTAL_INCREASING,
         icon="mdi:timer",
         value_fn=lambda data: data.get("sessionTime"),

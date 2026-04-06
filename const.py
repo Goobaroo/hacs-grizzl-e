@@ -9,12 +9,14 @@ CONF_SCAN_INTERVAL = "scan_interval"
 
 # Charging states
 STATE_MAP = {
-    0: "Initialization",
-    1: "Standby",
-    2: "Error",
-    3: "Pending",
+    0: "Power Up",
+    1: "Self-Test",
+    2: "Standby",
+    3: "Car Connected",
     4: "Charging",
-    5: "Finishing",
+    5: "Charging Complete",
+    6: "Disabled",
+    7: "Error",
 }
 
 # Pilot states
